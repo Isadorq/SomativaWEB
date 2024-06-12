@@ -1,0 +1,448 @@
+@import url("https://unicons.iconscout.com/release/v4.0.8/css/line.css");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+.MainContainer {
+  background-color: white;
+  transition: background-color 2s ease;
+}
+
+.MainComponentsHome {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.IconNavBarTheme {
+  height: 33px;
+  margin: 8%;
+}
+
+.IconNavBarTheme:hover {
+  cursor: pointer;
+}
+
+.NavBarContainer {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fc6998;
+  transition: background-color 2s ease;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.NavBarContainerNone {
+  display: none;
+}
+
+.containerOptions,
+.subContainerOptions {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: 1;
+  background-color: #fc6998;
+  transition: background-color 2s ease;
+}
+.containerIconNavBar {
+  transition: margin-left 0.3s ease;
+}
+.MainComponentsHome {
+  transition: margin-left 0.3s ease;
+}
+.IconNavBar {
+  width: 30px;
+  margin-left: 20px;
+}
+#XIcon,
+#MenuIcon {
+  cursor: pointer;
+}
+
+#XIcon {
+  display: none;
+}
+
+.IconNavBarOff {
+  display: none;
+}
+
+.IconUserPhoto {
+  width: 66px;
+  height: 50px;
+  background-color: #f74780;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.IconUserPhoto:hover {
+  cursor: pointer;
+}
+
+.SideBarContainer {
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 4;
+  position: fixed;
+  background-color: #fc6998;
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 0px 0px 0px #c7c7c7;
+  border-top: 1px solid #c7c7c7;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+}
+
+.containerImg {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+}
+
+.ImgLogo {
+  width: 130px;
+}
+
+.ListLinks {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.itemList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.itemList a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.itemList:hover {
+  cursor: pointer;
+}
+
+.MainListText {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.IconSideBar {
+  width: 26px;
+  height: 26px;
+  margin-right: 20px;
+}
+.Saida {
+  width: 20px;
+  height: 26px;
+  margin-left: 30px;
+}
+
+#chartBar {
+  width: 200px;
+  height: 250px;
+}
+
+.containerChar {
+  background-color: white;
+  margin: 52px;
+}
+
+.containerChar,
+.Bar {
+  width: 500px;
+  border-radius: 20px;
+}
+
+.ContainerNavbar {
+  margin: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ContainerCharts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.subNavbarContainer {
+  width: 85%;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 1px 1px #c7c7c7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fc6998;
+  transition: background-color 2s ease;
+}
+.TextSubNavContainer {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  color: white;
+}
+
+.IconSubNavConainerText {
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerChar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContanerImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  
+  .subNavbarContainer {
+    width: 84%;
+  }
+  .ContainerCharts {
+    display: flex;
+    flex-direction: row;
+  }
+  /* .ContainerNavbar,
+  .ContainerCharts {
+    width: 100%;
+  } */
+  .containerChar {
+    margin: 0px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-left: 41px;
+  }
+  .containerUserSettings {
+    width: 100%;
+    height: 310px;
+  }
+  .containerChar,
+  .Bar {
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width: 992px) {
+  .MainComponentsHome {
+    display: block;
+    
+  }
+  .subNavbarContainer {
+    width: 94%;
+  }
+  .ContainerCharts {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .ContainerNavbar,
+  .ContainerCharts {
+    width: 100%;
+  } */
+  .containerChar {
+    margin: 0px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .containerUserSettings {
+    width: 100%;
+    height: 310px;
+  }
+  .containerChar,
+  .Bar {
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width: 768px) {
+  
+  .subNavbarContainer {
+    width: 79%;
+  }
+  .ContainerCharts {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .ContainerNavbar,
+  .ContainerCharts {
+    width: 100%;
+  } */
+  .containerChar {
+    margin: 0px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .containerUserSettings {
+    width: 100%;
+    height: 310px;
+  }
+  .containerChar,
+  .Bar {
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width: 576px) {
+  
+  .subNavbarContainer {
+    width: 79%;
+  }
+  .ContainerCharts {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .ContainerNavbar,
+  .ContainerCharts {
+    width: 100%;
+  } */
+  .containerChar {
+    margin: 0px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .containerUserSettings {
+    width: 100%;
+    height: 310px;
+  }
+  .containerChar,
+  .Bar {
+    width: 100%;
+  }
+  .SideBarContainer {
+    width: 219px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .containerUserSettings {
+    width: 100%;
+    height: 310px;
+  }
+  .userPicture {
+    width: 120px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #f74780;
+    z-index: 1;
+    position: relative;
+  }
+  .subNavbarContainer {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .TextSubNavContainer,
+  .IconSubNavConainerText {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .ContainerCharts {
+    display: flex;
+    flex-direction: column;
+  }
+  .SideBarContainer {
+    width: 179px;
+  }
+  .ImgLogo {
+    width: 128px;
+  }
+  .containerOptions,
+  .subContainerOptions {
+    margin-right: 1px;
+  }
+  #RefreshButton {
+    display: none;
+  }
+  .ContainerNavbar,
+  .ContainerCharts {
+    width: 100%;
+  }
+  .ContainerNavbar{
+    margin: 0%;
+  }
+  .containerChar {
+    margin: 0px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+
+  .IconUserPhoto {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+table {
+  width: 45%; 
+  border-collapse: collapse; 
+  margin-bottom: 20px;
+} 
+
+th, td { 
+  border: 3px solid #fc6998; 
+  border-radius: 10px;
+  padding: 6px; 
+  text-align: center; 
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.iconFooter {
+  width: 35px;
+  height: 26px;
+  margin-bottom: 5px;
+}
+
+.footerText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-top: 15px;
+  border: solid #fc6998;
+  border-radius: 10px;
+}
